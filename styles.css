@@ -4,6 +4,10 @@ body {
 
 header {
     background-color: gray;
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+    
 }
 
 h1, h2 {
@@ -20,13 +24,8 @@ table {
     width: 100%;
 }
 
-header {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 @media only screen and (min-device-width: 600px) {
-    header, table, #responsive-div{
+    table, header {
         width: 600px;
     }
 }
